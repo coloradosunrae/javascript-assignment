@@ -1,0 +1,55 @@
+body {
+  padding-top: 20px;
+  font-family: Courier New, Courier, monospace;
+  color: black;
+  background-size: cover;
+}
+
+.container { 
+  text-align: center;
+  
+}
+
+.title {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+h1,h2,h3,
+h4,h5,h6 {
+  padding: 5px;
+}
+
+#title-image, #gameover-image, #youwin-image{ 
+  display: block;
+  margin: 0 auto;
+}
+
+#currentWord {
+  letter-spacing: 10px;
+}
+
+#pressKeyTryAgain, 
+#gameover-image, 
+#youwin-image { display: none;}
+.gameplay-column {
+  padding-top: 20px;
+  border: 3px dashed #fff;
+  text-align: center;
+  margin-top: 20px;
+  min-height: 500px;
+  background-color: grey;
+}
+
+body {
+  background-color: black;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
